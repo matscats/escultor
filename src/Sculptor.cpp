@@ -151,7 +151,7 @@ void Sculptor::cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int r
   for (int xi = xcenter - rx; xi <= xcenter + rx; xi++) {
     for (int yi = ycenter - ry; yi <= ycenter + ry; yi++) {
       for (int zi = zcenter - rz; zi <= zcenter + rz; zi++) {
-        if (pow(xi - xcenter, 2)/ pow(rx, 2) + pow(yi - ycenter, 2) / pow(r, 2) + pow(zi - zcenter, 2) / pow(rz, 2) <= 1)
+        if (pow(xi - xcenter, 2)/ (float)pow(rx, 2) + pow(yi - ycenter, 2) / (float)pow(r, 2) + pow(zi - zcenter, 2) / (float)pow(rz, 2) <= 1)
         {
           cutVoxel(xi, yi, zi);
         }
