@@ -9,4 +9,12 @@ Criar um código orientado a objetos em C++ capaz de criar estruturas em 3D a pa
 ## Autor
 Mateus Cavalcanti Alves Teixeira Silva - 5° período do curso de Engenharia da Computação (UFRN).
 
+## Compilação
+Na pasta do projeto, siga as seguintes instruções
+```sh
+$ mkdir build && cd build
+$ cmake ..
+$ make
+```
+
 
