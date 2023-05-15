@@ -16,7 +16,7 @@ $ mkdir build && cd build
 $ cmake ..
 $ make
 $ cd ..
-$ ./build/projeto-escultor
+$ ./bin/projeto-escultor
 ```
 isso irá gerar um arquivo no formato .off na pasta do projeto a partir das instruções fornecidas.
 

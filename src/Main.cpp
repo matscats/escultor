@@ -3,9 +3,14 @@
 
 int main(void)
 {
-  Sculptor s(60,60,60);
-  s.setColor(1.1,0.1,0.1,0.9);
-  s.putEllipsoid(20,20,20,10,15,20);
+  Sculptor s(100,100,100);
+  s.setColor(0.9,0.1,0.1,0.9);
+  s.putBox(1,10,10,18,10,18);
+  s.setColor(0.1,0.9,0.1,0.5);
+  s.putSphere(28,12,12,15);
+  s.setColor(0.1,0.1,0.9,0.3);
+  s.putEllipsoid(65,12,12,15,5,5);
+
   s.writeOFF("file.off");
   return 0;
 }
