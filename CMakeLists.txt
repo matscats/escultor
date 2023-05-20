@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.0)
 project(projeto-escultor)
-add_executable(projeto-escultor src/Main.cpp src/Sculptor.cpp src/Voxel.h)
+add_executable(projeto-escultor src/Main.cpp src/Sculptor.cpp)
 set_target_properties(projeto-escultor PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
