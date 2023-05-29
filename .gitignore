@@ -2,3 +2,5 @@ build
 *.off
 .vscode
 bin
+html
+latex
