@@ -6,9 +6,11 @@
  */
 struct Voxel
 {
-  float r, g, b; /* Cor do voxel (RGB) */
-  float a; /* Transparência do voxel [0,1] */
-  bool show; /* Define se o voxel será exibido */
+  float r; // Tom vermelho do voxel (RGB)
+  float g; // Tom verde do voxel (RGB)
+  float b; // Tom azul do voxel (RGB)
+  float a; // Transparência do voxel [0,1]
+  bool show; // Define se o voxel será exibido
 };
 
 #endif
