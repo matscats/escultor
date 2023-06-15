@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(projeto-escultor)
 
-add_executable(projeto-escultor 
+add_executable(projeto-escultor
+               src/Config.cpp
                src/Main.cpp
                src/Sculptor.cpp
                src/PutVoxel.cpp

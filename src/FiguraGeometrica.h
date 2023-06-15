@@ -9,7 +9,7 @@
  */
 class FiguraGeometrica
 {
-  protected:
+  public:
     /**
      * @brief Realiza o desenho do sólido geométrico
      * 
