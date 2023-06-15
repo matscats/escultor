@@ -1,6 +1,6 @@
 #include "Sculptor.h"
-#include <iostream>
 #include "math.h"
+#include <iostream>
 #include <fstream>
 
 Sculptor::Sculptor(int _nx, int _ny, int _nz)
