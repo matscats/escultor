@@ -26,6 +26,7 @@ void CutSphere::draw(Sculptor &t)
         {
           std::cerr << "Voxel fora do grid" << std::endl;
           std::cout << "Digite um valor válido" << std::endl;
+          return;
         }
       }
     }
